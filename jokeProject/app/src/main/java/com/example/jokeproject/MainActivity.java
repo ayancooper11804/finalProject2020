@@ -2,8 +2,21 @@ package com.example.jokeproject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView title;
+    TextView select;
+    Button random;
+    Button create;
+    Button animals;
+    Button programming;
+    Button money;
+    Button mamma;
+    Button knock;
+    Button kid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,12 +25,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    //Hey hi how are ya?
-    //So like this is cool
 }
+
+
 
 
 // hey how are you
 
 //ayan  does it work
+
+//Hello
+
