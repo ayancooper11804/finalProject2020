@@ -37,6 +37,8 @@ public class sportsCate extends AppCompatActivity {
         reveal = findViewById(R.id.reveal);
         present = findViewById(R.id.present);
 
+        jAnswer.setVisibility(View.INVISIBLE);
+
         jokeQuestion = new String[5];
         jokeAnswer = new String[5];
 
