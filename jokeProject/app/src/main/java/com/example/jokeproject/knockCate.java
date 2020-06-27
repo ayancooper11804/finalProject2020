@@ -10,4 +10,8 @@ public class knockCate extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_knock_cate);
     }
+
+
+
+    //jklf
 }

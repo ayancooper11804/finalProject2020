@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         title = findViewById(R.id.title);
         select = findViewById(R.id.select);
 
+        //change
+
+
 
         random.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,27 +56,32 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+<<<<<<< HEAD
                 toprogramming();
+=======
+               toProgramming();
+>>>>>>> f5cab54900b9d66c0591e00e547bd21b8f822dfc
             }
         });
 
         sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
 
                 tosports();
+=======
+                toSports();
+>>>>>>> f5cab54900b9d66c0591e00e547bd21b8f822dfc
             }
         });
     }
 
 
 
-    public void torandom(){
+    public void torandom() {
         Intent toRandom = new Intent(this, random.class);
         startActivity(toRandom);
-
-
-
     }
 
     public void toanimals(){
@@ -83,6 +91,16 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void toProgramming() {
+        Intent toProgramming = new Intent(this, programmingCate.class);
+        startActivity(toProgramming);
+    }
+
+    public void toSports() {
+        Intent toSports = new Intent(this, sportsCate.class);
+        startActivity(toSports);
+    }
+
 
     public void toprogramming(){
         Intent toProgramming = new Intent(this, programmingCate.class);
