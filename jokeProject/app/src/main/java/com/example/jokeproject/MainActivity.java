@@ -30,9 +30,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-// hey how are you
 
-//ayan  does it work
-
-//Hello
 
