@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         sports = findViewById(R.id.sports);
 
         //change
-        
+
 
 
         random.setOnClickListener(new View.OnClickListener() {
