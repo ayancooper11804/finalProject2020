@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         random = findViewById(R.id.random);
 
         animals = findViewById(R.id.animals);
+        programming = findViewById(R.id.programming);
         random.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 toanimals();
+            }
+        });
+
+        programming.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+               // toprogramming();
             }
         });
     }
