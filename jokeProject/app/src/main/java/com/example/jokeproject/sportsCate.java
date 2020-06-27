@@ -79,6 +79,6 @@ public class sportsCate extends AppCompatActivity {
 
     }
 
-//horse
+
 
 }
