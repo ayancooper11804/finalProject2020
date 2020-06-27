@@ -51,7 +51,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               // toprogramming();
+                toprogramming();
+            }
+        });
+
+        sports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                tosports();
             }
         });
     }
@@ -74,5 +82,19 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void toprogramming(){
+        Intent toProgramming = new Intent(this, programmingCate.class);
+        startActivity(toProgramming);
 
+
+
+    }
+
+    public void tosports(){
+        Intent toSports = new Intent(this, sportsCate.class);
+        startActivity(toSports);
+
+
+
+    }
 }
