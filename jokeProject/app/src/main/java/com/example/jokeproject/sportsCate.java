@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class sportsCate extends AppCompatActivity {
 
     TextView present;
@@ -18,6 +20,9 @@ public class sportsCate extends AppCompatActivity {
     String[] jokeAnswer;
 
     Random r = new Random();
+
+    String answer;
+    String question;
 
     int joke;
 
@@ -69,7 +74,7 @@ public class sportsCate extends AppCompatActivity {
         answer = jokeAnswer[x];
         question = jokeQuestion[x];
 
-        jQusetion.setText(question);
+        jQuestion.setText(question);
         jAnswer.setText(answer);
 
     }
