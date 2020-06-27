@@ -37,8 +37,8 @@ public class random extends AppCompatActivity {
         jQusetion = findViewById(R.id.jQuestion);
         Janswer = findViewById(R.id.answer);
         editText = findViewById(R.id.guess);
-
         reveal = findViewById(R.id.reveal);
+
 
         jokeQuestion = new String[5];
         jokeAnswer = new String[5];

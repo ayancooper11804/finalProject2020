@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         animals = findViewById(R.id.animals);
         programming = findViewById(R.id.programming);
         sports = findViewById(R.id.sports);
+        title = findViewById(R.id.title);
+        select = findViewById(R.id.select);
 
 
         random.setOnClickListener(new View.OnClickListener() {
