@@ -26,8 +26,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         random = findViewById(R.id.random);
-
         animals = findViewById(R.id.animals);
+        programming = findViewById(R.id.programming);
+        sports = findViewById(R.id.sports);
+
         random.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
