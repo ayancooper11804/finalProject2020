@@ -56,23 +56,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-<<<<<<< HEAD
+
                 toprogramming();
-=======
+
                toProgramming();
->>>>>>> f5cab54900b9d66c0591e00e547bd21b8f822dfc
+
             }
         });
 
         sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
+
 
                 tosports();
-=======
-                toSports();
->>>>>>> f5cab54900b9d66c0591e00e547bd21b8f822dfc
+
+
+
             }
         });
     }
