@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         programming = findViewById(R.id.programming);
         sports = findViewById(R.id.sports);
 
+
         random.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 toanimals();
+            }
+        });
+
+        programming.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+               // toprogramming();
             }
         });
     }
@@ -67,9 +76,3 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
-
-
-
-
-
-
