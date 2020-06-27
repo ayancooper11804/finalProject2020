@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button money;
     Button mamma;
     Button knock;
-    Button kid;
+    Button sports;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
