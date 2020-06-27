@@ -51,19 +51,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               // toprogramming();
+               toProgramming();
+            }
+        });
+
+        sports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toSports();
             }
         });
     }
 
 
 
-    public void torandom(){
+    public void torandom() {
         Intent toRandom = new Intent(this, random.class);
         startActivity(toRandom);
-
-
-
     }
 
     public void toanimals(){
@@ -73,6 +77,16 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void toProgramming() {
+        Intent toProgramming = new Intent(this, programmingCate.class);
+        startActivity(toProgramming);
+    }
+
+    public void toSports() {
+        Intent toSports = new Intent(this, sportsCate.class);
+        startActivity(toSports);
+    }
+
 
 
 }
