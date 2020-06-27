@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         programming = findViewById(R.id.programming);
         sports = findViewById(R.id.sports);
 
+        //change
+        
+
 
         random.setOnClickListener(new View.OnClickListener() {
             @Override
