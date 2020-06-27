@@ -44,6 +44,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    protected void onCreate(Bundle goToAnimals) {
+        super.onCreate(goToAnimals);
+        setContentView(R.layout.activity_main);
+
+        animals = findViewById(R.id.animals);
+
+        animals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { toanimals();
+            }
+        });
+    }
+
+    public void toanimals(){
+        Intent toAnimals = new Intent(this, animalsCate.class);
+        startActivity(toAnimals);
+
+
+
+    }
+
+
 }
 
 
